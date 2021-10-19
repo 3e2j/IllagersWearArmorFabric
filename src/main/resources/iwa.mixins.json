@@ -6,7 +6,7 @@
   "mixins": [
   ],
   "client": [
-    "ExampleMixin"
+    "AbstractIllagerEntityMixin"
   ],
   "injectors": {
     "defaultRequire": 1
