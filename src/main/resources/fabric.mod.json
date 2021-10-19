@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "illagers-wear-armor",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Illagers Wear Armor",
+  "description": "A Port of Illagers Wear Armor",
   "authors": [
-    "Me!"
+    "hat"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
 
-  "license": "CC0-1.0",
+  "license": "MIT License",
   "icon": "assets/modid/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.hat.iwa.IllagersWearArmor"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "iwa.mixins.json"
   ],
 
   "depends": {
